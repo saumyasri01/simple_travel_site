@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Images Side by Side</title>
+    <style>
+        /* CSS for styling */
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            width: 45%; /* Adjust width as needed */
+            height: auto;
+        }
+    </style>
+</head>
+
+<header style="background-image: url('./images/lucknow.jpg'); padding: 5px; color: #060606; text-align: center;">
+    <img id="header_image" src="./images/lucknow.jpg" alt="Header Sunrise Image" width="100%" height="200px">
+    <h1 style="font-size: 36px;">The Traveling Tales</h1>
+</header>
+<body>
+    <div class="image-container">
+        <img src="images/lucknow1.jpeg" alt="Image 1">
+        <img src="images/lucknow2.jpeg" alt="Image 2">
+    </div>
+    <div class="image-container">
+        <img src="images/lucknow3.jpeg" alt="Image 3">
+        <img src="images/lucknow4.jpeg" alt="Image 4">
+    </div>
+
+    <footer style="background-color: #ccc; padding: 5px; color: #060606;text-align: center;">
+        <p>@Saumya 2024 All rights reserved</p>
+    </footer>
+</body>
+</html>
