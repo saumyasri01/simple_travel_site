@@ -1,5 +1,17 @@
 footer {
-    background-color: #ccc; /* Grey color */
-    padding: 20px; /* Add padding to make it visually appealing */
-    color: #fff; /* Text color to make it readable on the grey background */
+    background-color: #ccc; 
+    padding: 5px; color: #060606;
+    text-align: center;
 }
+p{
+    font-family: sans-serif;
+}
+.tb { border-collapse: collapse; width:300px; }
+.tb th, .tb td { padding: 5px; border: solid 1px #777; }
+.tb th { background-color: rgb(9, 193, 230); }
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
